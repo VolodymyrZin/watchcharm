@@ -1,0 +1,72 @@
+.section-hero {
+    padding-top: 80px;
+}
+.section-hero .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.hero-slogan {
+    width: 597px;
+    margin-bottom: 40px;
+}
+.hero-title {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 0.875;
+    margin-bottom: 20px;
+}
+.hero-title-blue {
+    color: #3350e9;
+}
+.hero-text {
+    width: 480px;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(12, 12, 12, 0.7);
+}
+.hero-scroll-down {
+    font-size: 20px;
+    line-height: 1;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    margin-bottom: 40px;
+    text-align: right;
+}
+.hero-img {
+    width: 100%;
+}
+.hero-reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 146px;
+}
+.hero-reviews-items {
+    display: flex;
+    position: relative;
+}
+.hero-item-img {
+    width: 60px;
+    height: 60px;   
+}
+
+.hero-item:nth-child(1) {
+  position: absolute;
+  top: 0;
+  right: 86px;
+  z-index: 10;
+}
+.hero-item:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 44px;
+  z-index: 20;
+}
+.hero-item:nth-child(3) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 30;
+}

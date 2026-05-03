@@ -1,0 +1,30 @@
+.catalog-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 23px;
+}
+.catalog-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    background-color: #f3f3f3;
+    flex-basis: calc((100% - 23px * 2) / 3);
+    padding: 24px 32px;
+
+}
+.catalog-img {
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.catalog-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+.catalog-text {
+    font-weight: 400;
+    color: rgba(12, 12, 12, 0.5);
+}
+

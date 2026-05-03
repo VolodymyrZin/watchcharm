@@ -1,0 +1,23 @@
+.navigation-item {
+    letter-spacing: normal;
+}
+.navigation-item:hover,
+.navigation-item:focus {
+    color: #3350e9;
+}
+.navigation-link {
+    position: relative; 
+}
+.icon-point {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    fill: #3350e9;
+
+}
+.active {
+    color: #3350e9;
+}
