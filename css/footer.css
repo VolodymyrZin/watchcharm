@@ -1,105 +1,101 @@
 footer .container {
-    background-color: #0c0c0c;
-    padding-left: 32px;
-    padding-right: 32px;
-    border-radius: 30px;
-    padding-block: 40px 28px;
-    padding-inline: 40px;
-    width: 1216px;
+  background-color: #0c0c0c;
+  /* padding-left: 32px;
+  padding-right: 32px; */
+  border-radius: 30px;
+  padding: 40px 40px 28px;
+  width: 1216px;
 }
 .bottom {
-    color: #fbfbfb;
+  color: #fbfbfb;
 }
 .icons-bottom {
-    border: 1px solid rgba(251, 251, 251, 0.1);
-    border-radius: 10px;
-    padding: 8px;
-    width: 36px;
-    height: 36px;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  width: 36px;
+  height: 36px;
 }
 .footer-subtitle {
-    max-width: 523px;
-    font-weight: 900;
-    font-size: 28px;
-    line-height: 1.14286;
-    text-align: center;
-    /* color: #fbfbfb; */
-    background-image: url('../images/interest.jpg');
-    color: transparent;
-    background-clip: text;
-    background-attachment: fixed;
-    
-
+  max-width: 523px;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 1.14286;
+  text-align: center;
+  /* color: #fbfbfb; */
+  background-image: url('../images/interest.jpg');
+  color: transparent;
+  background-clip: text;
+  background-attachment: fixed;
 }
 .footer-top {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 126px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 126px;
 }
 .logo-social {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .footer-tel {
-    border: 1px solid rgba(251, 251, 251, 0.2);
-    border-radius: 16px;
-    color: #fbfbfb;
-    background-color: transparent;
-    min-width: 160px;
-    height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  color: #fbfbfb;
+  background-color: transparent;
+  min-width: 160px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer-middle {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 56px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
 }
 .nav-footer {
-    color: #fbfbfb;
-    transition: color 0.3s ease-in-out,
+  color: #fbfbfb;
+  transition:
+    color 0.3s ease-in-out,
     transform 0.3s ease-in-out;
 }
 .nav-footer:hover,
 .nav-footer:focus {
-    color:  rgb(251, 251, 251, 0.8);
-    transform: scale(1.1);
+  color: rgb(251, 251, 251, 0.8);
+  transform: scale(1.1);
 }
 .salt-lake-city {
-    color: #fbfbfb;
-    max-width: 162px;
+  color: #fbfbfb;
+  max-width: 162px;
 }
 .property {
-    color: rgba(251, 251, 251, 0.5);
-    opacity: 0.9;
+  color: rgba(251, 251, 251, 0.5);
+  opacity: 0.9;
 }
 .terms-privacy {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 .footer-bottom {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-.terms, 
+.terms,
 .privacy {
-
-    color: rgba(251, 251, 251, 0.5);
+  color: rgba(251, 251, 251, 0.5);
 }
 .logo-social .social-item {
-    border: 1px solid rgba(251, 251, 251, 0.1);
+  border: 1px solid rgba(251, 251, 251, 0.1);
 }
 .logo-social .social-icon {
-    fill: rgb(251, 251, 251);
-    transition: fill 0.3s ease-in-out,
+  fill: rgb(251, 251, 251);
+  transition:
+    fill 0.3s ease-in-out,
     transform 0.3s ease-in-out;
-
 }
-.logo-social .social-item:hover .social-icon, 
-.logo-social .social-item:focus .social-icon{
-    fill: rgb(251, 251, 251, 0.8);
-    transform: scale(1.4);
+.logo-social .social-item:hover .social-icon,
+.logo-social .social-item:focus .social-icon {
+  fill: rgb(251, 251, 251, 0.8);
+  transform: scale(1.4);
 }
