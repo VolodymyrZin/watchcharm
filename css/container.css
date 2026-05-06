@@ -1,8 +1,23 @@
 .container {
-    width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
+  /* width: 1280px; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 1px solid green;
+  max-width: 375px;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
     padding-left: 65px;
     padding-right: 65px;
-    outline: 1px solid green;
+  }
 }

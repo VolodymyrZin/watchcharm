@@ -1,38 +1,61 @@
 .section-banner .container {
-    background-image: 
+  background-image:
     linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
     url('../images/contact-us/contact-us-img.webp');
-    border-radius: 30px;
-    padding: 83px 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    width: 1150px;
+  border-radius: 30px;
+  padding: 60px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 335px;
+  height: 363px;
 }
 .banner-text {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 0.91667;
-    color: #fbfbfb;
-
-    width: 706px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  color: #fbfbfb;
 }
 
 .banner-text-accent {
-    color: rgba(251, 251, 251, 0.5);
+  color: rgba(251, 251, 251, 0.5);
 }
 .banner-reference {
-    padding: 15px 43px 16px 44px;
-    border: 1px solid rgba(251, 251, 251, 0.15);
-    border-radius: 16px;
+  padding: 15px 43px 16px 44px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
 
-    text-align: center;
-    color: #fbfbfb;
-    transition: background-color 0.5s ease-in-out,
-                 color 0.3s ease-in-out;
-
+  text-align: center;
+  color: #fbfbfb;
+  transition:
+    background-color 0.5s ease-in-out,
+    color 0.3s ease-in-out;
 }
-.banner-reference:hover{
-    background-color: #fbfbfb;
-    color: #0c0c0c;
+.banner-reference:hover {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+
+@media (min-width: 768px) {
+  .section-banner .container {
+    padding: 80px 64px;
+    width: 704px;
+    height: 425px;
+  }
+  .banner-text {
+    font-size: 48px;
+    line-height: 0.91667;
+  }
+}
+@media (min-width: 1280px) {
+  .section-banner .container {
+    padding: 80px 80px 83px;
+    flex-direction: row;
+    width: 1150px;
+    height: 298px;
+  }
+  .banner-text {
+    width: 690px;
+  }
 }

@@ -4,9 +4,6 @@ header .container {
   justify-content: space-between;
   padding: 20px;
 }
-.container {
-  max-width: 375px;
-}
 .navigation {
   display: none;
 }
