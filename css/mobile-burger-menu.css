@@ -22,7 +22,7 @@
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  transform: translatex(0);
+  transform: translateX(0);
 }
 .close-btn {
   position: absolute;
